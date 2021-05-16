@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 
 </head>
 
@@ -49,10 +50,6 @@
 
             </div>
 
-
-
-
-            </div>
             <div class="dashboard-content">
 
                 <div class="status">
@@ -234,13 +231,11 @@
 
                         <ul class="questions-list">
 
-                            <li class="question">
+                            <li class="question" id="add-new-question">
                                 <div class="graphic">
                                     <img src="./images/ic_add_new.png" alt="">
                                 </div>
-                                <div class="quiz-info">
-                                    <p>English</p>
-                                </div>
+                                <h3>New</h3>
                             </li>
 
                             <li class="question">
@@ -251,30 +246,7 @@
                                     <p>English</p>
                                 </div>
                             </li>
-                            <li class="question">
-                                <div class="graphic">
-                                    <img src="./images/ic_bio.jpeg" alt="">
-                                </div>
-                                <div class="quiz-info">
-                                    <p>English</p>
-                                </div>
-                            </li>
-                            <li class="question">
-                                <div class="graphic">
-                                    <img src="./images/ic_bio.jpeg" alt="">
-                                </div>
-                                <div class="quiz-info">
-                                    <p>English</p>
-                                </div>
-                            </li>
-                            <li class="question">
-                                <div class="graphic">
-                                    <img src="./images/ic_bio.jpeg" alt="">
-                                </div>
-                                <div class="quiz-info">
-                                    <p>English</p>
-                                </div>
-                            </li>
+
 
                             <li class="question">
                                 <div class="graphic">
@@ -302,14 +274,61 @@
                                     <p>English</p>
                                 </div>
                             </li>
+
+
+                            <li class="question">
+                                <div class="graphic">
+                                    <img src="./images/ic_bio.jpeg" alt="">
+                                </div>
+                                <div class="quiz-info">
+                                    <p>English</p>
+                                </div>
+                            </li>
+
+
+                            <li class="question">
+                                <div class="graphic">
+                                    <img src="./images/ic_bio.jpeg" alt="">
+                                </div>
+                                <div class="quiz-info">
+                                    <p>English</p>
+                                </div>
+                            </li>
+
+
+
                         </ul>
                     </div>
 
                 </div>
 
+
             </div>
         </section>
     </main>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>New question</h3>
+                <span class="close">&times;</span>
+            </div>
+
+            <div class="modal-body">
+                <input type="text" placeholder="question">
+                <input type="text" placeholder="question">
+                <input type="text" placeholder="question">
+                <input type="text" placeholder="question">
+                <input type="text" placeholder="question">
+
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 
